@@ -1,0 +1,43 @@
+$padding : 10px 0;
+
+body{
+    text-align: justify;
+    padding: $padding;
+    h1{
+        text-align: center;
+        background-color: #51ff00;
+    }
+
+    .foto-nama{
+        background-color: #ff0000;
+        padding: 5% 0;
+        text-align: center;
+        img{
+            max-width: 150px;
+            border-radius: 50%;
+            opacity: .9;
+            -webkit-box-shadow: 17px 9px 36px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 17px 9px 36px 0px rgba(0,0,0,0.75);
+            box-shadow: 17px 9px 36px 0px rgba(0,0,0,0.75);
+        }
+
+        h5{
+            font-weight: 800;
+            text-align: center;
+        }
+    }
+    .keterangan{
+        text-align: left;
+        background-color: #6f00ff;
+        padding: $padding;
+        p{
+            span{
+                margin: 0 0 0 0;
+            }
+        }
+    }
+       
+
+
+
+}
